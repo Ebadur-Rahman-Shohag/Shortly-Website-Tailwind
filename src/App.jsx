@@ -1,3 +1,4 @@
+import CTA from "./components/CTA";
 import FeatureBox from "./components/FeatureBox";
 import Hero from "./components/Hero";
 import Navbar from "./components/Navbar";
@@ -11,6 +12,7 @@ function App() {
       <Shorten />
       <Stats />
       <FeatureBox />
+      <CTA />
     </>
   );
 }
